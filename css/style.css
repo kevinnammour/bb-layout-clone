@@ -13,6 +13,7 @@ body {
   position: fixed;
   background-color: #262626;
   width: 200px;
+  overflow: auto;
 }
 
 .blackboard {
@@ -71,15 +72,6 @@ li.active {
 
 li.active:hover {
   background-color: black;
-}
-
-.copyright {
-  color: #e5e5e5;
-  font-family: "Poppins";
-  font-size: 1.5rem;
-  position: fixed;
-  bottom: 0px;
-  left: 5px;
 }
 
 .content {
